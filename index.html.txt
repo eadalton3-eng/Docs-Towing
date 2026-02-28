@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Docs Towing & Recovery | St. Louis Towing Experts</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f5f5f5;
+        color: #333;
+    }
+    header {
+        background: #002b5c;
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .logo {
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    nav a {
+        color: white;
+        margin: 0 12px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .hero {
+        text-align: center;
+        padding: 120px 20px;
+        background: #333; /* Replace with tow truck image later */
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+    .cta-btn {
+        display: inline-block;
+        background: #ffcc00;
+        padding: 12px 25px;
+        font-weight: bold;
+        border-radius: 6px;
+        text-decoration: none;
+        color: #002b5c;
+        margin-top: 15px;
+    }
+    .content-section {
+        padding: 60px 40px;
+    }
+    .light {
+        background: #ffffff;
+    }
+    h2 {
+        color: #002b5c;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .service-grid, .contact-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px;
+    }
+    .service-card {
+        background: white;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .job-box {
+        text-align: center;
+        background: #eef3f9;
+        margin: 25px auto;
+        padding: 30px;
+        border-radius: 8px;
+        max-width: 500px;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #002b5c;
+        color: white;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+<header>
+    <div class="logo">Docs Towing & Recovery</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#team">Join Our Team</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#blog">Blog</a>
+    </nav>
+</header>
+<section id="home" class="hero">
+    <h1>St. Louis Towing You Can Trust</h1>
+    <p>Fast, Reliable & Professional Towing and Recovery — 24/7</p>
+    <a class="cta-btn" href="tel:+1">Call Now</a>
+</section>
+<section id="services" class="content-section">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+        <div class="service-card">
+            <h3>24/7 Emergency Towing</h3>
+            <p>Immediate towing response anywhere in St. Louis, day or night.</p>
+        </div>
+        <div class="service-card">
+            <h3>Roadside Assistance</h3>
+            <p>Jump starts, tire changes, lockouts, fuel delivery and more.</p>
+        </div>
+        <div class="service-card">
+            <h3>Vehicle Recovery</h3>
+            <p>Safe recovery for stuck, wrecked, or off‑road vehicles.</p>
+        </div>
+        <div class="service-card">
+            <h3>Long Distance Towing</h3>
+            <p>Reliable hauling for cars, trucks, and equipment.</p>
+        </div>
+    </div>
+</section>
+<section id="team" class="content-section light">
+    <h2>Join Our Team</h2>
+    <p>Grow your career with St. Louis’ most trusted towing service.</p>
+    <div class="job-box">
+        <h3>Now Hiring: Tow Truck Operators</h3>
+        <p>
+            • Competitive pay<br>
+            • Flexible schedules<br>
+            • Training provided
+        </p>
+        <a href="#contact" class="cta-btn">Apply Now</a>
+    </div>
+</section>
+<section id="contact" class="content-section">
+    <h2>Contact Us</h2>
+    <p>Available 24/7 for towing or questions.</p>
+    <div class="contact-grid">
+        <div>
+            <h3>Phone</h3>
+            <p><a href="tel:+1">+1 (xxx) xxx‑xxxx</a></p>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <p><a href="mailto:info@docstowing.com">info@docstowing.com</a></p>
+        </div>
+        <div>
+            <h3>Location</h3>
+            <p>St. Louis, Missouri</p>
+        </div>
+    </div>
+</section>
+<section id="blog" class="content-section light">
+    <h2>Blog</h2>
+    <p>Coming soon.</p>
+</section>
+<footer>
+    <p>© 2024 Docs Towing & Recovery — St. Louis, MO</p>
+</footer>
+</body>
+</html>
